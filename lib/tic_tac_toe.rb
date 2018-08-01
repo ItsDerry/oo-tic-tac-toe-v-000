@@ -111,7 +111,6 @@ end
   
   def play
     turn
-    over?
     if over? == true
       play
     elsif full? == true && won? == true
