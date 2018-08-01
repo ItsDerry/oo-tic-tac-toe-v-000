@@ -111,7 +111,7 @@ end
   
   def play
     turn
-    if over? == true
+    if over? == false
       play
     elsif full? == true && won? == true
       puts "Congratulations #{winner}"
